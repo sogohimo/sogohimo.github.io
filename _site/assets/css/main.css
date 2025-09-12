@@ -113,10 +113,30 @@ body{
   .card p{-webkit-line-clamp:6}
 }
 
-
-
 .hr-powered-by {
 	display: none !important;
 }
 
+.hr-host{ width:100%; }
 
+.hr-host .hr-grid{
+  display:grid !important;
+  grid-template-columns: repeat(6, 1fr); /* подставь своё количество реакций */
+  gap: clamp(8px, 1.5vw, 16px);
+  align-items:center;
+  justify-items:center;
+  width:100%;
+}
+
+.hr-host .hr-reaction-icon{
+  font-size: clamp(32px, 4vw, 44px);
+  line-height:1;
+}
+.hr-host .hr-reaction-text{
+  margin-top:6px;
+  font-size: clamp(12px, 1.2vw, 14px);
+}
+
+@media (max-width: 520px){
+  .hr-host .hr-grid{ grid-template-columns: repeat(3, 1fr); }
+}
