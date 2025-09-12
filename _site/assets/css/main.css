@@ -112,3 +112,11 @@ body{
   .card h2{font-size:clamp(53px,3vw,36px)}
   .card p{-webkit-line-clamp:6}
 }
+
+
+
+.hr-powered-by {
+	display: none !important;
+}
+
+

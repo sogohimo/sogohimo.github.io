@@ -115,6 +115,8 @@ body{
 
 
 
-
+.hr-powered-by {
+	display: none !important;
+}
 
 
