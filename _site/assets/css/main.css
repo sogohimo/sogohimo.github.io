@@ -35,6 +35,7 @@ body{
   display:grid; grid-template-columns:auto 1fr; align-items:center;
   column-gap:clamp(8px,1vw,12px);
   font-weight:900; letter-spacing:1px; line-height:1;
+
 }
 
 .logo a{ text-decoration:none; color:inherit; }
